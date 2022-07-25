@@ -3,7 +3,6 @@ const btn = document.getElementById("btn");
 const color = document.querySelector(".color");
 
 btn.addEventListener("click", function () {
-    //pegue o numero aleatorio entre 0 e 3
     const randomNumber = getRandomNumber();
     console.log(randomNumber);
 
